@@ -12,17 +12,22 @@ Get the latest version from the [Releases page](https://github.com/pbeens/Clip5/
 
 ### Windows
 
-1. Download the `.exe` file.
-2. Clip5 is a standalone program, so there's nothing to install. Move the `.exe` wherever you like, such as your Desktop or a `Programs` folder, and double-click it to run.
-3. The first time, Windows may show "Windows protected your PC" because Clip5 isn't code-signed. Click **More info**, then **Run anyway**.
+1. Download the Windows `.zip` file.
+2. Right-click it and choose **Extract All**. Don't run Clip5 from inside the zip, because Windows would run it from a temporary folder.
+3. Clip5 is a standalone program, so there's nothing to install. Move `Clip5.exe` wherever you like, such as your Desktop or a `C:\Tools` folder, and double-click it to run.
+4. The first time, Windows may show "Windows protected your PC" because Clip5 isn't code-signed. Click **More info**, then **Run anyway**.
 
-Tip: to start Clip5 more easily, right-click the `.exe` and choose **Pin to Start** or **Pin to taskbar**.
+Tip: to start Clip5 more easily, right-click `Clip5.exe` and choose **Pin to Start** or **Pin to taskbar**.
+
+**To update**, replace your `Clip5.exe` with the new one. Your pins, shortcuts, and saved text keep working.
 
 ### macOS
 
 1. Download the `.zip` file and double-click it to unzip it. You'll get `Clip5.app`.
 2. Drag `Clip5.app` into your **Applications** folder.
 3. The first time you open it, macOS warns that it can't verify the developer, because Clip5 isn't signed by Apple. Click **Done**, then open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to the message about Clip5. You only need to do this once.
+
+**To update**, drag the new `Clip5.app` into **Applications** and choose **Replace**.
 
 Moving the program doesn't affect your saved text. That's stored separately, as described below.
 
@@ -141,7 +146,7 @@ powershell -ExecutionPolicy Bypass -File scripts/build_windows.ps1
 
 (`-ExecutionPolicy Bypass` lets this one script run even though Windows blocks PowerShell scripts by default.)
 
-This creates `release/Clip5-<version>-windows.exe`, with the Clip5 icon and version details built in.
+This creates `release/Clip5-<version>-windows.zip`, containing `Clip5.exe` (with the Clip5 icon and version details built in) and `LICENSE.txt`.
 
 ### macOS
 

@@ -4,7 +4,7 @@ Build and maintenance scripts for Clip5. Run them from the repository root.
 
 | Script | Platform | What it does |
 |---|---|---|
-| [`build_windows.ps1`](build_windows.ps1) | Windows (PowerShell) | Builds `release/Clip5-<version>-windows.exe` |
+| [`build_windows.ps1`](build_windows.ps1) | Windows (PowerShell) | Builds `Clip5.exe` and zips it with `LICENSE.txt` to `release/Clip5-<version>-windows.zip` |
 | [`build_macos.sh`](build_macos.sh) | macOS | Builds a universal, ad-hoc-signed `Clip5.app` and zips it to `release/Clip5-<version>-macos.zip` |
 | [`make_icons.py`](make_icons.py) | Any | Regenerates the icon PNGs and ICO in `assets/` from `assets/icon.svg` |
 

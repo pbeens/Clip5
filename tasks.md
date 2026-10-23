@@ -10,7 +10,7 @@
 - [x] Add a footer with the Buy Me a Coffee and Report an issue links
 - [x] Run on Windows and check that the slots and "On top" setting are restored after a restart
 - [x] Add a Clip5 app icon to `assets/` (window, Windows `.exe`, macOS `.app`)
-- [x] Produce the Windows release `.exe` with `scripts/build_windows.ps1` and test it
+- [x] Produce the Windows release zip with `scripts/build_windows.ps1` and test it
 - [x] Pre-release review: docs, changelog (dated 2026-10-23), release notes, `.gitignore`
 - [ ] Commit and push to GitHub (repository private until the Mac build is done)
 - [ ] Build and test on the Mac (README: "Building the release files → macOS"); first real run of the universal build script

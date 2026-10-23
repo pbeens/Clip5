@@ -20,7 +20,7 @@ Publish a new version of Clip5: bump the version, finalize the changelog, build 
 ## Outputs and side effects
 
 - Updated `Cargo.toml`, `Cargo.lock`, `CHANGELOG.md`, `RELEASE_NOTES.md`, `docs/`
-- `release/Clip5-<version>-windows.exe` and `release/Clip5-<version>-macos.zip`
+- `release/Clip5-<version>-windows.zip` and `release/Clip5-<version>-macos.zip`
 - A git tag `v<version>` and a GitHub Release (externally visible)
 
 ## Steps

@@ -19,6 +19,9 @@ lipo -create -output "$app/Contents/MacOS/$exe" \
     "target/aarch64-apple-darwin/release/$exe" \
     "target/x86_64-apple-darwin/release/$exe"
 
+# Ship the MIT licence inside the app.
+cp LICENSE "$app/Contents/Resources/LICENSE.txt"
+
 # Ad-hoc sign the whole bundle. Without this, macOS on Apple Silicon reports a downloaded
 # copy as "damaged" instead of offering Privacy & Security > Open Anyway.
 codesign --force --deep --sign - "$app"

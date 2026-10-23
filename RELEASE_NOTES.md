@@ -17,7 +17,7 @@ Everything needed to fill in the GitHub **Draft a new release** form for the nex
 
 | File | Built by | Built on |
 |---|---|---|
-| `Clip5-1.0.0-windows.exe` | `powershell -ExecutionPolicy Bypass -File scripts/build_windows.ps1` | Windows PC |
+| `Clip5-1.0.0-windows.zip` | `powershell -ExecutionPolicy Bypass -File scripts/build_windows.ps1` | Windows PC |
 | `Clip5-1.0.0-macos.zip` | `bash scripts/build_macos.sh` | Mac |
 
 Both files land in `release/`.
@@ -54,10 +54,12 @@ Type or paste text into any of the five slots. Click **Copy** beside a slot to p
 
 #### Download
 
-- **Windows:** download `Clip5-1.0.0-windows.exe`. It's a standalone program with nothing to install: move it wherever you like and double-click it.
+- **Windows:** download `Clip5-1.0.0-windows.zip`, right-click it, and choose **Extract All**. `Clip5.exe` is a standalone program with nothing to install: move it wherever you like and double-click it.
   Because Clip5 isn't code-signed, Windows may show "Windows protected your PC". Click **More info**, then **Run anyway**.
 - **macOS** (Apple Silicon and Intel): download `Clip5-1.0.0-macos.zip`, double-click it to unzip, and drag `Clip5.app` into your **Applications** folder.
   The first time you open it, macOS can't verify the developer. Click **Done**, then go to **System Settings → Privacy & Security** and click **Open Anyway**.
+
+To update later, replace `Clip5.exe` or `Clip5.app` with the new version. Your saved text and settings are kept.
 
 #### Where your text and settings are saved
 

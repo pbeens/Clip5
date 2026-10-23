@@ -2,6 +2,13 @@
 
 Program-related prompts, newest first. Paraphrased; not a transcript.
 
+## 2026-10-23T10:50
+
+- **Goal:** Give the Windows download a stable program name.
+- **Prompt:** After discussing versioned versus plain names for a portable exe, chose to zip the Windows build so it extracts as `Clip5.exe`.
+- **Host:** XPS-8950
+- **Context:** Build script now makes `Clip5-<version>-windows.zip` (Clip5.exe + LICENSE.txt); the Mac app also carries the licence; download and update steps revised.
+
 ## 2026-10-23T10:30
 
 - **Goal:** Get the project ready to upload for v1.0.0.

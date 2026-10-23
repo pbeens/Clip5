@@ -13,10 +13,10 @@ Long text is shortened with "…" so the window stays small. Make the window tal
 
 Get the latest version from the [Releases page](https://github.com/pbeens/Clip5/releases/latest).
 
-- **Windows:** download the `.exe`. There's nothing to install: move it wherever you like and double-click it. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**. The app is free and not code-signed.
+- **Windows:** download the `.zip`, right-click it, and choose **Extract All**. There's nothing to install: move `Clip5.exe` wherever you like and double-click it. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**. The app is free and not code-signed.
 - **macOS:** download and unzip the `.zip`, then drag `Clip5.app` into your **Applications** folder. The first time you open it, macOS can't verify the developer. Click **Done**, then go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
-Your text is stored separately from the program, so moving the program doesn't affect it.
+To update, replace the program with the new version. Your text is stored separately, so moving or replacing the program doesn't affect it.
 
 ## Help and feedback
 

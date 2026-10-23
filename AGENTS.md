@@ -10,13 +10,13 @@ Clip5 is a small, always-on-top desktop app with five text slots. Each slot has 
 
 - Desktop app for Windows (primary) and macOS.
 - Rust with `eframe`/`egui` (glow/OpenGL backend for a small executable).
-- Distributed as a single-file Windows `.exe` and a zipped macOS `.app` via GitHub Releases. Both are built manually by the maintainer (Windows on the PC, macOS on a Mac); there is no CI.
+- Distributed via GitHub Releases as zips: a single portable `Clip5.exe` for Windows and a `Clip5.app` for macOS. Both are built manually by the maintainer (Windows on the PC, macOS on a Mac); there is no CI.
 - Project website built with Quarto and published to GitHub Pages from `docs/`.
 - Public repository, MIT licence.
 
 ## Deliverables
 
-- `Clip5-<version>-windows.exe` (built by `scripts/build_windows.ps1`)
+- `Clip5-<version>-windows.zip` containing `Clip5.exe` and `LICENSE.txt` (built by `scripts/build_windows.ps1`). The exe name never includes the version, so users can update by replacing it without breaking pins.
 - `Clip5-<version>-macos.zip` containing a universal, ad-hoc-signed `Clip5.app` (built on a Mac by `scripts/build_macos.sh`)
 - Project website (GitHub Pages)
 - A `CHANGELOG.md` entry for every release

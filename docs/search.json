@@ -11,7 +11,7 @@
     "href": "index.html#download",
     "title": "Clip5",
     "section": "Download",
-    "text": "Download\nGet the latest version from the Releases page.\n\nWindows: download the .exe. There’s nothing to install: move it wherever you like and double-click it. If Windows shows “Windows protected your PC”, click More info, then Run anyway. The app is free and not code-signed.\nmacOS: download and unzip the .zip, then drag Clip5.app into your Applications folder. The first time you open it, macOS can’t verify the developer. Click Done, then go to System Settings → Privacy & Security and click Open Anyway.\n\nYour text is stored separately from the program, so moving the program doesn’t affect it."
+    "text": "Download\nGet the latest version from the Releases page.\n\nWindows: download the .zip, right-click it, and choose Extract All. There’s nothing to install: move Clip5.exe wherever you like and double-click it. If Windows shows “Windows protected your PC”, click More info, then Run anyway. The app is free and not code-signed.\nmacOS: download and unzip the .zip, then drag Clip5.app into your Applications folder. The first time you open it, macOS can’t verify the developer. Click Done, then go to System Settings → Privacy & Security and click Open Anyway.\n\nTo update, replace the program with the new version. Your text is stored separately, so moving or replacing the program doesn’t affect it."
   },
   {
     "objectID": "index.html#help-and-feedback",
