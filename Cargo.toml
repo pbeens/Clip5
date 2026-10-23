@@ -46,5 +46,5 @@ icon = [
     "assets/icon-128.png",
     "assets/icon-256.png",
     "assets/icon-512.png",
-    "assets/icon-1024.png",
+    "assets/icon-512@2x.png",
 ]

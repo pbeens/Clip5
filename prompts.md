@@ -2,6 +2,13 @@
 
 Program-related prompts, newest first. Paraphrased; not a transcript.
 
+## 2026-10-23T11:20
+
+- **Goal:** Fix the macOS bundle build.
+- **Prompt:** `cargo bundle --release` on the Mac failed with "Failed to create app icon: No matching IconType".
+- **Host:** m4-mini
+- **Context:** ICNS has no 1024 slot at 1x; renamed `icon-1024.png` to `icon-512@2x.png` (Cargo.toml, make_icons.py, assets README).
+
 ## 2026-10-23T10:50
 
 - **Goal:** Give the Windows download a stable program name.

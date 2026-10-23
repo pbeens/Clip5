@@ -17,12 +17,14 @@ SVG = ASSETS / "icon.svg"
 
 # PNG sizes kept in assets/: the window icon (256) and the macOS bundle set.
 PNG_SIZES = [32, 64, 128, 256, 512, 1024]
+# ICNS has no 1024 size at 1x; cargo-bundle only accepts it as 512 at Retina density ("@2x").
+PNG_NAMES = {1024: "icon-512@2x.png"}
 # Sizes packed into the Windows .ico.
 ICO_SIZES = [16, 24, 32, 48, 64, 128, 256]
 
 
 def render(size: int) -> Path:
-    out = ASSETS / f"icon-{size}.png"
+    out = ASSETS / PNG_NAMES.get(size, f"icon-{size}.png")
     subprocess.run(
         ["rsvg-convert", "-w", str(size), "-h", str(size), str(SVG), "-o", str(out)],
         check=True,

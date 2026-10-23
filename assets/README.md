@@ -6,7 +6,7 @@ Files bundled into the Clip5 app at build time.
 |---|---|
 | `icon.svg` | The source drawing of the app icon. Edit this one. |
 | `icon-256.png` | The window icon (embedded by `src/main.rs`). |
-| `icon-32.png` … `icon-1024.png` | The macOS app icon (listed in `Cargo.toml` for `cargo bundle`). |
+| `icon-32.png` … `icon-512.png`, `icon-512@2x.png` | The macOS app icon (listed in `Cargo.toml` for `cargo bundle`). The 1024-pixel file must be named `512@2x`: ICNS has no 1024 size at 1x. |
 | `icon.ico` | The Windows `.exe` icon (embedded by `build.rs`). |
 
 The PNG and ICO files are generated. After editing `icon.svg`, run `python scripts/make_icons.py` from the repository root (see [`../scripts/README.md`](../scripts/README.md)) and commit the results.
