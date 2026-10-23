@@ -1,0 +1,20 @@
+# Rust build output
+/target/
+
+# Version-numbered release files made by scripts/build_*
+/release/
+
+# Python cache from scripts/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and tool settings that are personal to each machine
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# Quarto keeps its own ignore rules in website/.gitignore.

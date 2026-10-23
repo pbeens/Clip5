@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: ../docs
+  post-render: write-docs-readme.ts
+
+website:
+  title: "Clip5"
+  site-url: https://peter.beens.ca/Clip5/
+  repo-url: https://github.com/pbeens/Clip5
+  repo-actions: [issue]
+  navbar:
+    right:
+      - text: "Download"
+        href: https://github.com/pbeens/Clip5/releases/latest
+      - text: "Report an issue"
+        href: https://github.com/pbeens/Clip5/issues
+      - icon: github
+        href: https://github.com/pbeens/Clip5
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

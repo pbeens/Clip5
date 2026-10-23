@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Clip5 app icon: a clipboard with a bold "5". Edit this file, then run scripts/make_icons.py. -->
+  <!-- Board -->
+  <rect x="148" y="120" width="728" height="840" rx="104" fill="#2F6FED"/>
+  <!-- Paper -->
+  <rect x="220" y="236" width="584" height="652" rx="44" fill="#FFFFFF"/>
+  <!-- Clip -->
+  <rect x="336" y="64" width="352" height="164" rx="56" fill="#1B3A8C"/>
+  <rect x="456" y="104" width="112" height="40" rx="20" fill="#2F6FED"/>
+  <!-- The 5, drawn as a path so it doesn't depend on installed fonts -->
+  <path fill="#2F6FED" d="
+    M 372 316
+    H 664
+    V 412
+    H 470
+    L 460 494
+    C 486 480 520 474 556 474
+    C 660 474 728 544 728 640
+    C 728 750 646 822 526 822
+    C 444 822 380 796 336 756
+    L 384 672
+    C 418 704 466 726 516 726
+    C 580 726 620 692 620 640
+    C 620 590 582 558 520 558
+    C 478 558 446 570 416 590
+    L 344 562
+    Z"/>
+</svg>

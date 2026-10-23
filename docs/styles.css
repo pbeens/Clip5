@@ -1,0 +1,4 @@
+/* Centre captions under centred images (Quarto left-aligns them by default). */
+.quarto-figure-center figcaption {
+  text-align: center;
+}
